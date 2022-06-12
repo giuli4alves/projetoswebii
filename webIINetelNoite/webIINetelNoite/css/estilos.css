@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat";
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+body{
+    background-color: #101010;
+}
+a{
+    font-size: medium;
+}
+h1, h2,h3{
+    font-weight: bold;
+}
+main>h2{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+/******* Cabeçário *******/
+#cabecario{
+    background-color: #73737325;
+    width: 80vw;
+    margin: 10px auto 3px;
+    border-radius: 3px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#cabecario>nav>ul{
+    display: flex;
+}
+#cabecario>nav>ul>li{
+    margin: auto 5px;
+    
+}
+/******* Banner *******/
+#banner{
+    height: 330px;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#banner>h1{
+    font-size: 45px;
+}
+/******** cards ********/
+#cards-equipe{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vw;
+}
+.card{
+    height: 20vw;
+    width: 20vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.card>img{
+    border-radius: 100px;
+    height: 5vw;
+    width: 5vw;
+}
+#cards-equipe>article:first-child{
+    background-color: #c14000;
+}
+#cards-equipe>article:nth-child(2){
+    background-color: #009987;
+}
+#cards-equipe>article:last-child{
+    background-color: #ffaa00;
+}
+.card>p{
+    text-align: center;
+}
+/******** section negócio *******/
+#section-negocio{
+    margin: 50px auto;
+    display: flex;
+    height: 15vw;
+    width: 87.5vw;
+    background-color: #73737325;
+}
+#section-negocio>article{
+    padding: 30px 10px;
+}
+#section-negocio>article>h3{
+    margin-bottom: 20px;
+
+}
+#section-negocio>article>p{
+    text-align: justify;
+    margin: 0 5px 20px 40px;
+}
+/******** section recentes ********/
+
+/******** rodapé ********/
+footer{
+    background-color: #73737325;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4vw;
+}
+footer>p{
+    font-size: smaller;
+}
+footer>ul{
+    display: flex;
+}
