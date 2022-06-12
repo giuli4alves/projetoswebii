@@ -61,6 +61,7 @@ main>h2{
     justify-content: space-around;
     align-items: center;
     height: 20vw;
+    
 }
 .card{
     height: 20vw;
@@ -70,6 +71,7 @@ main>h2{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    
 }
 .card>img{
     border-radius: 100px;
@@ -88,6 +90,31 @@ main>h2{
 .card>p{
     text-align: center;
 }
+#cards-equipe>article:first-child>button{
+background-color: #c14000;
+border-color: white;
+width: 65%;
+height: 20%;
+}
+#cards-equipe>article:nth-child(2)>button{
+    background-color:#009987;
+    border-color: white;
+    width: 65%;
+    height: 20%;
+}
+#cards-equipe>article:last-child>button{
+    background-color:#ffaa00;
+    border-color: white;
+    width: 65%;
+    height: 20%;
+}
+
+
+
+
+
+
+
 /******** section negócio *******/
 #section-negocio{
     margin: 50px auto;
@@ -107,8 +134,20 @@ main>h2{
     text-align: justify;
     margin: 0 5px 20px 40px;
 }
-/******** section recentes ********/
 
+#section-negocio>article>button{
+    background-color:#73737325;
+    border-color: white;
+    width: 15%;
+    height: 30%;
+}
+/******** section recentes ********/
+#proj_recent{
+    text-align: center;
+    margin: 30px 90px 30px 90px;
+    
+
+}
 /******** rodapé ********/
 footer{
     background-color: #73737325;
@@ -118,8 +157,28 @@ footer{
     height: 4vw;
 }
 footer>p{
+    display: flex;
     font-size: smaller;
+    
 }
 footer>ul{
     display: flex;
+    
+}
+article>img{    
+width: 300px;
+height: 200px;  
+display: inline-block;
+padding: 2px;
+margin: 0 30px 20px 30px;
+}
+div>button{
+    background-color:#73737325;
+    border-color: white;
+    width: 150px;
+    height: 55px;
+    align-items: center;
+    justify-content: space-around;
+   
+    
 }
